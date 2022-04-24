@@ -1,2 +1,0 @@
-# TestHealthunify
-Тестирование приложения Healthunify
