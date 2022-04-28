@@ -19,6 +19,6 @@ public class BMICategory {
         driver.findElement(By.xpath("//p/input[@name='cc']")).click();
         String name=driver.findElement(By.xpath("//td/input[@class='content']")).getAttribute("value");
         Assert.assertEquals(name, "Your category is Normal");
-        driver.close();
+        driver.quit();
     }
 }

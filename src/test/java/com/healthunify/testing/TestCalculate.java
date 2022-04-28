@@ -20,6 +20,6 @@ public class TestCalculate {//вес в кг., рост в см.
         driver.findElement(By.xpath("//p/input[@name='cc']")).click();
         String name=driver.findElement(By.xpath("//td/input[@class='resform'][@name='si']")).getAttribute("value");
         Assert.assertEquals(name, "23.44");
-//        driver.close();
+        driver.close();
     }
 }
